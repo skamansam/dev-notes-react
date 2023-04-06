@@ -52,5 +52,4 @@ jobs:
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_DEV_NOTES_24B68 }}'
-          channelId: ${BRANCH_NAME}
           projectId: dev-notes-24b68

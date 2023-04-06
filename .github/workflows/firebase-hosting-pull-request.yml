@@ -11,6 +11,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
+      - name: Extract branch name
+        uses: nelonoel/branch-name@v1.0.1
+        run: echo ${BRANCH_NAME}
+
       - name: Install Node.js 18
         uses: actions/setup-node@v3
         with:
@@ -47,5 +51,5 @@ jobs:
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_DEV_NOTES_24B68 }}'
-          channelId: '${{github.ref}}'
+          channelId: ${BRANCH_NAME}
           projectId: dev-notes-24b68

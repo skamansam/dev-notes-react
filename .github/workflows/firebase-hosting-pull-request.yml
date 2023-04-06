@@ -13,7 +13,8 @@ jobs:
 
       - name: Extract branch name
         uses: nelonoel/branch-name@v1.0.1
-        run: echo ${BRANCH_NAME}
+
+      - run: echo ${BRANCH_NAME}
 
       - name: Install Node.js 18
         uses: actions/setup-node@v3

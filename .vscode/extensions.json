@@ -1,0 +1,17 @@
+{
+  "recommendations": [
+    "kevinkyang.auto-comment-blocks",
+    "aaron-bond.better-comments",
+    "streetsidesoftware.code-spell-checker",
+    "kisstkondoros.vscode-codemetrics",
+    "vivaxy.vscode-conventional-commits",
+    "fabiospampinato.vscode-diff",
+    "editorconfig.editorconfig",
+    "usernamehw.errorlens",
+    "github.vscode-pull-request-github",
+    "eamodio.gitlens",
+    "seatonjiang.gitmoji-vscode",
+    "esbenp.prettier-vscode",
+    "britesnow.vscode-toggle-quotes"
+  ]
+}

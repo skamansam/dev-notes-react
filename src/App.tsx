@@ -28,6 +28,9 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
+      <p className="channel">
+        This is a preview channel. To use the latest stable version, visit <a href="https://dev-notes-24b68.web.app/">https://dev-notes-24b68.web.app/</a>
+      </p>
     </div>
   )
 }
